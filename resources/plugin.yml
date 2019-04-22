@@ -1,0 +1,6 @@
+name: PunishmentHistory
+author: abhi
+version: 1.0
+main: me.abhi.punishmenthistory.PunishmentHistory
+commands:
+  history:

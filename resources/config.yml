@@ -1,0 +1,32 @@
+no-permission: "&cNo permission."
+no-history-found: "&cThere was no history found for that player."
+invalid-type: "&cThe type specified is invalid."
+player-not-found: "&cThat player does not exist."
+
+history:
+  - "&6&m--------------------------------"
+  - "&bDate: &a%date%"
+  - "&bExecutor: &a%executor%"
+  - "&bReason: &a%reason%"
+  - "&bType: &a%type%"
+  - "&6&m--------------------------------"
+
+date-format: "MM/dd/yyyy"
+
+ban-commands:
+  - "ban"
+
+kick-commands:
+  - "kick"
+
+ipban-commands:
+  - "ban-ip"
+
+mute-commands:
+  - "mute"
+
+ipmute-commands:
+  - "mute-ip"
+
+unban-commands:
+  - "pardon"
