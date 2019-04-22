@@ -28,6 +28,9 @@ public class PunishmentListener implements Listener {
         boolean punishment = false;
         PunishmentType punishmentType = null;
         int punishmentNumber = 1;
+        if (!player.hasPermission("punishmenthistory.punish")) {
+            return;
+        }
         for (String banCommands : punishmentHistory.getBanCommands()) {
             if (event.getMessage().startsWith("/" + banCommands + " ")) {
                 String message = event.getMessage().replace("/" + banCommands + " ", "");
